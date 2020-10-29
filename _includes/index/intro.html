@@ -1,0 +1,22 @@
+<div class="intro" style="background-image:url('{{ site.baseurl }}/img/themes/{{ site.data.conference.slug }}/intro.png');">
+  <div class="limit">
+    <img src="{{ site.baseurl }}/img/themes/{{ site.data.conference.slug }}/sfday-overlay.svg" style="display:block; width: 30%; margin: 100px auto 32px">
+    <h3 class="intro__where-when" style="text-align: center">
+      {{ site.data.conference.where_when }}
+    </h3>
+  </div>
+
+  {% if site.data.tickets.sold_out %}
+    <span class="intro__register intro__register--sold-out">
+      <i class="intro__icon icon-cancel"></i>
+      Sold out
+    </span>
+  {% else %}
+    <a href="{{ site.data.tickets.url }}" class="intro__register">
+      <i class="intro__icon icon-play-1"></i>
+      Get Tickets Now
+    </a>
+  {% endif %}
+
+
+</div>

@@ -1,0 +1,46 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+call_for_paper_url: https://forms.gle/VAYK14Z1GWfrGYZq6
+call_for_paper: false
+list:
+  - id: antonello-dippolito
+    description: Software Engineer and Scrum Master, VONQ
+    image: antonello-dippolito.jpg
+    first_name: Antonello
+    last_name: D'Ippolito
+    twitter: antodippo
+  -
+    id: bastian-hofmann
+    description: Field Engineer, Rancher Labs
+    image: bastian-hofmann.jpg
+    first_name: Bastian
+    last_name: Hofmann
+    twitter: BastianHofmann
+  -
+    id: alessandro-lai
+    description: Lead Developer, Facile.it
+    image: alessandro-lai.jpg
+    first_name: Alessandro
+    last_name: Lai
+    twitter: AlessandroLai
+  -
+    id: samuele-lilli
+    description: Senior Backend Developer, Madisoft
+    image: samuele-lilli.jpg
+    first_name: Samuele
+    last_name: Lilli
+    twitter: SamueleLilli
+  -
+    id: alessandro-minoccheri
+    description: Senior Software Developer, Flowing
+    image: alessandro-minoccheri.jpg
+    first_name: Alessandro
+    last_name: Minoccheri
+    twitter: minompi
+  -
+    id: angel-rivera
+    description: Developer Advocate, CircleCI
+    image: angel-rivera.jpg
+    first_name: Angel
+    last_name: Rivera
+    twitter: punkdata

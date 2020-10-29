@@ -1,0 +1,25 @@
+name: sfday Italy
+utm_source: sfday
+og_image: http://2020.sfday.it/img/confs/sfday/header_sfday.png
+og_description: A conference solely dedicated to Symfony framework. 6+ sessions presented by international speakers.
+slug: sfday
+url: https://2020.sfday.it
+where_when: Online, November 20th 2020
+year: 2020
+since: 2012
+talks_available: true
+schedule_available: false
+workshop_available: false
+call_for_paper: false
+scholarship_available: false
+
+iubenda:
+  cookiePolicyId: 29098106
+  siteId: 1078163
+  lang: en
+  enableRemoteConsent: true
+  localConsentDomain: sfday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-P5GXBFP

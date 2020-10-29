@@ -1,0 +1,53 @@
+-
+  speaker_id: antonello-dippolito
+  title: CODE, TEST, DEPLOY, REPEAT
+  extract: >
+    Continuous delivery, deployment, integration: a lot of buzzwords of our times start with "continuous". But do they exist in real life? Or is
+    this just fantasy? In this session, I'll show how real and impactful CI/CD can be by telling you the story of how we are building
+    "continuous stuff" at VONQ. It's a story about tests, pipelines, automation and feature toggles, but, more importantly, about changing mindsets.
+    We'll go through each of the stages - coding, testing, deploying (and delivering) - and we'll find out (spoiler!) why the road to continuous
+    delivery is valuable even if you're not going to deploy in production many times per day.
+-
+  speaker_id: bastian-hofmann
+  title: Deploying your first Symfony application to Kubernetes
+  extract: >
+    Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying,
+    running and scaling your web application. But it has also a steep learning curve.
+    In this talk I will introduce you to Kubernetes and show how you can set up a complete cluster and deploy a Symfony app to it in a few minutes.
+-
+  speaker_id: alessandro-lai
+  title: My Symfony functional testing toolbox
+  extract: >
+    When testing the PHP side of a Symfony application, tests are normally split into unit and functional: the former do not need anything in
+    addition to some proficiency, due to their small size and isolated execution; the latter instead are more complex, slower and sometimes more
+    brittle, because they use more components, and they involve the framework and the libraries used to build the app.
+    In this talk, I'll show all the small tools, tips & tricks that I've accumulated over the years writing functional tests on Symfony projects,
+    which have helped me in keeping fast, reliable and maintainable test suites.
+-
+  speaker_id: samuele-lilli
+  title: Stop mocking everything
+  extract: >
+    More and more developers practice TDD, but implementation and test code are too often in a one-to-one relationship. This means that whenever
+    implementation code changes, unit tests need to be adapted as well. The most likely cause? An abuse of test doubles (mocks, stubs, and so on).
+    In this talk the methodology will be under the spotlight, no matter what TDD tool you're using. As a matter of fact there won’t be any slides,
+    just plain PHP code. I will build a practical example using both PHPUnit and PHPSpec, two of the main testing tools for PHP, pointing out the
+    advantages of using real implementations (when possible) instead of test doubles.
+-
+  speaker_id: alessandro-minoccheri
+  title: Symfony and Hexagonal Architecture
+  extract: >
+    Symfony has many amazing components and libraries. But it’s important to implement your own application logic, create your own domain models
+    decoupled from the framework.
+    In this talk, I will explain the "Hexagonal Architecture" style to help you to organize your application designed well to test and easy to
+    maintain and evolve.
+-
+  speaker_id: angel-rivera
+  title: CI/CD Agility and Controlling Pipeline Sprawl
+  extract: >
+    The adoption of CI/CD has automated the process of how DevOps teams build, test, and deliver software at rapid speeds and with high confidence.
+    Although CI/CD platforms offer many benefits, in the attempt to make sophisticated pipelines, many teams run into the issue of "Pipeline Sprawl".
+    Pipeline sprawl makes it difficult for DevOps teams to identify and reuse common execution patterns which diminishes their ability to efficiently
+    ship new code.
+    In this talk, Angel will discuss the common pain points associated with existing CI/CD platforms. The talk will pull in examples from his recent
+    experience and conversations with DevOps teams from across the open source community, startups, and large enterprises. Attendees will learn
+    technical strategies to develop optimized pipeline configurations and diminish potentially costly vendor-lock in.

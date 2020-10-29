@@ -1,0 +1,96 @@
+<div class="intro intro--no-height">
+  <h1 class="intro__title">
+    {{ workshop.title }}
+  </h1>
+
+  <h1 class="row__title">
+    <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
+  </h1>
+
+</div>
+<h1 class="row__title">
+  {{ workshop.when }}
+</h1>
+
+<h2 class="row__title">
+Lingua: italiano / Language: Italian only
+</h2><br />
+
+<h3 class="row__title">
+  {{ workshop.timetable }}
+</h3>
+
+<h3 class="row__title">
+  {{ workshop.where }} - <a href="{{ workshop.map }}" class="link" target="_blank">come raggiungerci</a>
+</h3>
+
+<h3 class="row__title">
+  Un workshop realizzato in collaborazione con
+  <a class="link" href="https://www.flowing.it/?utm_source={{ site.data.conference.utm_source }}">FLOWING</a>.
+</h3>
+
+<br /><a class="link" href="https://www.flowing.it/?utm_source={{ site.data.conference.utm_source }}">FLOWING</a> è una
+software house specializzata in sviluppo web, mobile, applicazioni IoT, progettazione e gestione di infrastrutture Cloud,
+è nata a febbraio 2019 da un percorso di crescita condiviso di due stimate aziende italiane:
+<a class="link" href="https://extrategy.net/?utm_source={{ site.data.conference.utm_source }}">extrategy</a> e
+<a class="link" href="https://www.ideato.it/?utm_source={{ site.data.conference.utm_source }}">ideato</a>.
+La community di Flowing è formata da oltre 50 Flowing People, esperti e professionisti attivi sulla scena tech italiana
+e internazionale da oltre dieci anni.
+
+
+<hr class="hr">
+
+<div class="row row--2">
+  <div class="row__column markdown">
+    {{ workshop.intro | markdownify }}
+  </div>
+  <div class="row__column">
+    <a href="{{ workshop.teacher.link }}" class="teacher">
+      <div class="teacher__avatar">
+        <img src="/img/teachers/{{ workshop.teacher.picture }}" class="teacher__picture">
+      </div>
+      <div class="teacher__contents">
+        <div class="teacher__name">
+          {{ workshop.teacher.name }}
+        </div>
+        <div class="teacher__bio">
+          {{ workshop.teacher.bio }}
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<hr class="hr">
+
+<h2 class="row__title">Programma</h2>
+
+<div class="row row--1">
+  <div class="row__column markdown">
+    {{ workshop.program | markdownify }}
+  </div>
+
+
+  <div class="row__column">
+    <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
+  </div>
+</div>
+
+
+<hr class="hr">
+
+<div class="row row--2">
+  <div class="row__column">
+    <h3 class="column__title">A chi è rivolto</h3>
+    {{ workshop.addressed_info | markdownify }}
+  </div>
+  <div class="row__column">
+    <h3 class="column__title">Informazioni utili</h3>
+    {{ workshop.useful_info | markdownify }}
+  </div>
+
+  <p class="row__column">
+    <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
+  </p>
+
+</div>
