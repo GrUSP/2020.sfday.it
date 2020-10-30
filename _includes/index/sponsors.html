@@ -113,6 +113,23 @@
       </div>
       {% endif %}
 
+      {% if site.data.sponsors.diversity.list | size %}
+      <div class="sponsors__category">
+        <div class="sponsors__title">
+          diversity
+        </div>
+        <div class="sponsors__bronze">
+          {% for sponsor in site.data.sponsors.diversity.list %}
+          <div class="sponsors__bronze-column">
+            <a href="{{ sponsor.url }}" class="sponsors__link">
+              <div style="background-image:url('{{ site.baseurl }}/img/sponsors/{{ sponsor.image }}');" class="sponsors__image"></div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
       {% if site.data.partners %}
       <div class="sponsors__category">
         <div class="sponsors__title-right">

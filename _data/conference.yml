@@ -11,7 +11,7 @@ talks_available: true
 schedule_available: false
 workshop_available: false
 call_for_paper: false
-scholarship_available: false
+scholarship_available: true
 
 iubenda:
   cookiePolicyId: 29098106

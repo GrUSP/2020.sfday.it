@@ -93,3 +93,9 @@ bronze:
     - 2 tickets with 10% discount
   max: 32
   list:
+
+diversity:
+  list:
+    -
+      url: https://balsamiq.com/?utm_source=symfonyday
+      image: balsamiq.svg
