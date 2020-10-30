@@ -79,6 +79,9 @@ silver:
   max: 16
   list:
     -
+      url: https://www.facile.it/?utm_source=symfonyday
+      image: facile.svg
+    -
       url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday
       image: madisoft.svg
 
