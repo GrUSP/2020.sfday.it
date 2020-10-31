@@ -1,0 +1,22 @@
+# place images in:
+# img/conf-name/community/file.jpg
+
+list:
+  -
+    name: GDG Torino
+    image: gdgto.png
+    site: https://gdgtorino.it/
+
+  -
+    name: devRomagna
+    image: devromagna.svg
+    site: https://devromagna.org/
+
+  -
+    name: PUG Roma
+    image: pug-roma.svg
+    site: http://roma.grusp.org/
+
+  - name: PUG Romagna
+    image: pug-romagna.svg
+    site: https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
