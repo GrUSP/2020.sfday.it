@@ -1,103 +1,42 @@
 list:
   -
-    slug: cqrs-event-sourcing-per-sviluppatori-symfony
-    title: CQRS/Event Sourcing per sviluppatori Symfony
-    when: 17 Ottobre 2019, Verona
-    timetable: Registrazione 9:00 - 9:30 / Workshop 9:30 - 18:00 (con pause pranzo e caffè)
-    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
-    map: https://goo.gl/maps/iqQ6n6bNAf72
-    ticket: https://2019.sfday.it/tickets.html
+    slug: sviluppare-con-symfony-best-practice-e-casi-uso
+    title: "Sviluppare con Symfony: best practice e casi d'uso"
+    when: Martedì 24 (mattina) e Mercoledì 25 (mattina) Novembre 2020
+    timetable: Dalle 9:00 alle 13:00
+    where: Online
+    map:
+    ticket: https://www.eventbrite.com/e/sfday-italy-2020-virtual-edition-tickets-99961658010
     teacher:
-      name: Marco Radossi
-      picture: marco.jpg
-      bio: Software developer @ Flowing
+      name: Simone D’Amico
+      picture: simone-damico.jpg
+      bio: |
+        Papà a tempo pieno e nel tempo libero Agile software engineer specializzato in tecnologie web, best practices di sviluppo e metodologie agili.
+        Sono anche un blogger e scrivo per varie riviste online italiane come html.it e, di tanto in tanto, parlo a conferenze su argomenti come le
+        metodologie Agili e PHP.
       link: 
     intro: |
-      Il corso ha l’obiettivo di far conoscere le basi di CQRS/ES partendo da un approccio teorico fino ad arrivare all’implementazione di un caso d’uso. Alla fine del corso avrete solide basi sull’argomento e del codice funzionante da utilizzare come punto di partenza per i vostri progetti.
+      Il corso ha l’obiettivo di far conoscere le best practice di Symfony 5: partendo da un approccio teorico, arriveremo all’implementazione di un
+      caso d’uso. Alla fine del corso avrete solide basi sull’argomento e del codice funzionante da utilizzare come punto di partenza per i vostri
+      progetti.
     program: |
-      - Cos’è CQRS e perché usarlo
-      - Cos’è Event Sourcing e perché usarlo
-      - CQRS ed ES insieme
-      - Le componenti principali:
-          - Command
-          - Event
-          - Aggregate
-          - Read Model
-          - Process e Saga per modellare l’interazione tra aggregati
-      - Vantaggi e svantaggi
-      - Hands on: implementazione di una funzionalità completa con broadway:
-          - CQRS/ES con Symfony: broadway e broadway bundle
-          - Compiere azioni: il write model: Command, CommandHandler,Aggregate,Event, Event Store
-          - Estrarre i dati: il read model: Projector, Read Model
-      - Unit test
-      - Interazione tra aggregati tramite Process e Saga
-
-      Il completamento del programma dipende dalla velocità con la quale riusciremo ad affrontare gli argomenti.
-      Broadway è la libreria che abbiamo scelto per l’implementazione della nostra demo. Fornisce delle componenti utili per l’implementazione di CQRS/ES ma tutte le nozioni apprese nel corso del workshop sono implementabili con librerie analoghe o scrivendosi il proprio framework CQRS/ES.
-    addressed_info: |
-      Il corso è rivolto a chi vuole accelerare la sua curva di apprendimento sull’argomento e capire in quali casi è utile utilizzare questo pattern. Conoscenze richieste:
-      - PHP
-      - Programmazione ad oggetti
-      - Symfony Base
-      - Unit test (opzionale)
-    useful_info: |
-      La durata del corso è di una giornata e **si terrà il 17 Ottobre** (il giorno prima del sfday) con i seguenti orari:
-
-        - Registrazione 9:00 - 9:30
-        - Workshop 9:30 - 18:00 (con pause pranzo e caffè)
-
-      Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo e la macchina virtuale per far girare i test e l’applicazione.
-      È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.
-  -
-    slug: sviluppare-con-symfony-4-workshop
-    title: "Sviluppare con Symfony: best practice e casi d'uso"
-    when: 17 Ottobre 2019, Verona
-    timetable: Registrazione 9:00 - 9:30 / Workshop 9:30 - 18:00 (con pause pranzo e caffè)
-    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
-    map: https://goo.gl/maps/iqQ6n6bNAf72
-    ticket: https://2019.sfday.it/tickets.html
-    teacher:
-      name: Michele Orselli
-      picture: michele.jpg
-      bio: Software engineer @ Flowing
-      link: http://twitter.com/_orso_
-    intro: |
-      Il corso ha l’obiettivo di far conoscere le best practice di Symfony 4 e affrontare le principali novità introdotte da Symfony 5 (che sarà rilasciato a novembre): partendo da un approccio teorico, arriveremo all’implementazione di un caso d’uso. Alla fine del corso avrete solide basi sull’argomento e del codice funzionante da utilizzare come punto di partenza per i vostri progetti.
-    program: |
-      Scaletta corso:
+      Impareremo ad utilizzare il framework implementando un’applicazione reale che potrete usare come punto di partenza per i vostri progetti.
       - modello request / response (più che MVC)
       - installazione
       - organizzazione codice
       - symfony flex
       - gestione asset
-      - Creazione di una pagina
-          - controller
-          - twig
-          - routing
-          - integrazione con database
-          - gestione pagine di errore
+      - creazione di una pagina
       - come utilizzare le form in maniera disaccoppiata
       - dependency injection
       - gestione environment
-      - compenente security
+      - componente security
       - cli
       - testing
       - profiling e debugging
       - invio email
-      - novità di Symfony 5
 
-      Impareremo ad utilizzare il framework implementando un'applicazione reale che potrete usare come punto di partenza per i vostri progetti.
     addressed_info: |
-      Il corso è rivolto a chi vuole accelerare la sua curva di apprendimento sull’argomento e capire in quali casi è utile utilizzare questo framework. Conoscenze richieste:
-      - PHP
-      - Programmazione ad oggetti
-      - Symfony Base
-      - Unit test (opzionale)
-    useful_info: |
-      La durata del corso è di una giornata e **si terrà il 17 Ottobre** (il giorno prima del sfday) con i seguenti orari:
-
-        - Registrazione 9:00 - 9:30
-        - Workshop 9:30 - 18:00 (con pause pranzo e caffè)
-
-      Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo e la macchina virtuale per far girare i test e l’applicazione.
-      È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.
+      Il corso è rivolto a chi vuole accelerare la sua curva di apprendimento sull’argomento e capire in quali casi è utile utilizzare questo
+      framework. Conoscenze richieste: PHP, Programmazione ad oggetti, Symfony Base; Unit test (opzionale).
+    useful_info:
