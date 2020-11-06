@@ -1,4 +1,19 @@
 -
+  speaker_id: neal-brooks
+  title: The absolute beginner's guide to Domain Driven Design with Symfony
+  extract: >
+    DDD is one of the most effective ways to address business problems, but it can be overwhelming to get started with. Even armed with the theory,
+    beginning the journey is mysterious and finding answers to specific implementation details can be tough and scary.
+    In this talk we'll demystify the terminology and work out the most important aspects of DDD you'll need to get you going. Then, by exploring and
+    implementing a sample business domain, we'll discover such things as:
+    - How DDD entities differ from Doctrine entities
+    - What an aggregate root actually is
+    - How to organise your code
+    - How to define a bounded context
+    - How a domain service differs from an application service
+    Finally, we'll wire it all together with Symfony 5. So if you've been wanting to get started with DDD for a while but never knew how or where to
+    start then this talk is for you.
+-
   speaker_id: antonello-dippolito
   title: CODE, TEST, DEPLOY, REPEAT
   extract: >

@@ -3,7 +3,15 @@
 call_for_paper_url: https://forms.gle/VAYK14Z1GWfrGYZq6
 call_for_paper: false
 list:
-  - id: antonello-dippolito
+  -
+    id: neal-brooks
+    description: Senior Software Engineer, MyBuilder
+    image: neal-brooks.jpg
+    first_name: Neal
+    last_name: Brooks
+    twitter: nealio82
+  -
+    id: antonello-dippolito
     description: Software Engineer and Scrum Master, VONQ
     image: antonello-dippolito.jpg
     first_name: Antonello
